@@ -1,0 +1,20 @@
+[2018-11-28 16:40:38,601][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-11-28 16:40:38,813][INFO ][node                     ] [Baron Blood] version[2.4.2], pid[16544], build[161c65a/2016-11-17T11:51:03Z]
+[2018-11-28 16:40:38,813][INFO ][node                     ] [Baron Blood] initializing ...
+[2018-11-28 16:40:39,321][INFO ][plugins                  ] [Baron Blood] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-11-28 16:40:39,344][INFO ][env                      ] [Baron Blood] using [1] data paths, mounts [[新加卷 (F:)]], net usable_space [60.3gb], net total_space [238.4gb], spins? [unknown], types [NTFS]
+[2018-11-28 16:40:39,368][INFO ][env                      ] [Baron Blood] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-11-28 16:40:42,663][INFO ][node                     ] [Baron Blood] initialized
+[2018-11-28 16:40:42,664][INFO ][node                     ] [Baron Blood] starting ...
+[2018-11-28 16:40:43,429][INFO ][transport                ] [Baron Blood] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-11-28 16:40:43,434][INFO ][discovery                ] [Baron Blood] elasticsearch/Q6dhk1BRT6W2I604Bc9cKw
+[2018-11-28 16:40:47,466][INFO ][cluster.service          ] [Baron Blood] new_master {Baron Blood}{Q6dhk1BRT6W2I604Bc9cKw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-11-28 16:40:47,567][INFO ][gateway                  ] [Baron Blood] recovered [3] indices into cluster_state
+[2018-11-28 16:40:48,156][INFO ][cluster.routing.allocation] [Baron Blood] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2018-11-28 16:40:48,227][INFO ][http                     ] [Baron Blood] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-11-28 16:40:48,227][INFO ][node                     ] [Baron Blood] started
+[2018-11-28 16:46:03,086][INFO ][bootstrap                ] running graceful exit on windows
+[2018-11-28 16:46:03,086][INFO ][node                     ] [Baron Blood] stopping ...
+[2018-11-28 16:46:03,165][INFO ][node                     ] [Baron Blood] stopped
+[2018-11-28 16:46:03,165][INFO ][node                     ] [Baron Blood] closing ...
+[2018-11-28 16:46:03,169][INFO ][node                     ] [Baron Blood] closed

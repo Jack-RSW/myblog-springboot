@@ -1,0 +1,536 @@
+[2018-09-23 11:06:21,798][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:06:22,016][INFO ][node                     ] [Phat] version[2.4.2], pid[2124], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:06:22,016][INFO ][node                     ] [Phat] initializing ...
+[2018-09-23 11:06:22,505][INFO ][plugins                  ] [Phat] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:06:22,525][INFO ][env                      ] [Phat] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [41.6gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:06:22,526][INFO ][env                      ] [Phat] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:06:24,446][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-23 11:06:35,466][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:06:35,669][INFO ][node                     ] [She-Venom] version[2.4.2], pid[232], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:06:35,670][INFO ][node                     ] [She-Venom] initializing ...
+[2018-09-23 11:06:36,102][INFO ][plugins                  ] [She-Venom] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:06:36,120][INFO ][env                      ] [She-Venom] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [41.6gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:06:36,120][INFO ][env                      ] [She-Venom] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:06:38,515][INFO ][node                     ] [She-Venom] initialized
+[2018-09-23 11:06:38,516][INFO ][node                     ] [She-Venom] starting ...
+[2018-09-23 11:06:39,120][INFO ][transport                ] [She-Venom] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 11:06:39,125][INFO ][discovery                ] [She-Venom] elasticsearch/dhme2vc6Q0u8wD7Q44oIvQ
+[2018-09-23 11:06:43,154][INFO ][cluster.service          ] [She-Venom] new_master {She-Venom}{dhme2vc6Q0u8wD7Q44oIvQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 11:06:43,245][INFO ][gateway                  ] [She-Venom] recovered [4] indices into cluster_state
+[2018-09-23 11:06:43,739][INFO ][http                     ] [She-Venom] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 11:06:43,739][INFO ][node                     ] [She-Venom] started
+[2018-09-23 11:06:43,760][INFO ][cluster.routing.allocation] [She-Venom] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][0], [testgoods][0]] ...]).
+[2018-09-23 11:07:32,440][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-23 11:07:32,440][INFO ][node                     ] [She-Venom] stopping ...
+[2018-09-23 11:07:32,516][INFO ][node                     ] [She-Venom] stopped
+[2018-09-23 11:07:32,517][INFO ][node                     ] [She-Venom] closing ...
+[2018-09-23 11:07:32,521][INFO ][node                     ] [She-Venom] closed
+[2018-09-23 11:08:08,861][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:08:09,063][INFO ][node                     ] [Hyperkind] version[2.4.2], pid[3112], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:08:09,063][INFO ][node                     ] [Hyperkind] initializing ...
+[2018-09-23 11:08:09,525][INFO ][plugins                  ] [Hyperkind] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:08:09,545][INFO ][env                      ] [Hyperkind] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [41.6gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:08:09,545][INFO ][env                      ] [Hyperkind] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:08:11,957][INFO ][node                     ] [Hyperkind] initialized
+[2018-09-23 11:08:11,957][INFO ][node                     ] [Hyperkind] starting ...
+[2018-09-23 11:08:12,495][INFO ][transport                ] [Hyperkind] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 11:08:12,499][INFO ][discovery                ] [Hyperkind] elasticsearch/W-s1Ph9HTq-9ewRtrJl94w
+[2018-09-23 11:08:16,530][INFO ][cluster.service          ] [Hyperkind] new_master {Hyperkind}{W-s1Ph9HTq-9ewRtrJl94w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 11:08:16,619][INFO ][gateway                  ] [Hyperkind] recovered [4] indices into cluster_state
+[2018-09-23 11:08:17,142][INFO ][http                     ] [Hyperkind] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 11:08:17,142][INFO ][node                     ] [Hyperkind] started
+[2018-09-23 11:08:17,208][INFO ][cluster.routing.allocation] [Hyperkind] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][3], [testgoods][3]] ...]).
+[2018-09-23 11:09:19,100][INFO ][node                     ] [Hyperkind] stopping ...
+[2018-09-23 11:09:19,173][INFO ][node                     ] [Hyperkind] stopped
+[2018-09-23 11:09:19,173][INFO ][node                     ] [Hyperkind] closing ...
+[2018-09-23 11:09:19,177][INFO ][node                     ] [Hyperkind] closed
+[2018-09-23 11:09:26,244][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:09:26,462][INFO ][node                     ] [Bloodaxe] version[2.4.2], pid[2420], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:09:26,462][INFO ][node                     ] [Bloodaxe] initializing ...
+[2018-09-23 11:09:26,973][INFO ][plugins                  ] [Bloodaxe] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:09:26,995][INFO ][env                      ] [Bloodaxe] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [41.6gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:09:26,996][INFO ][env                      ] [Bloodaxe] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:09:29,514][INFO ][node                     ] [Bloodaxe] initialized
+[2018-09-23 11:09:29,514][INFO ][node                     ] [Bloodaxe] starting ...
+[2018-09-23 11:09:30,069][INFO ][transport                ] [Bloodaxe] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 11:09:30,074][INFO ][discovery                ] [Bloodaxe] elasticsearch/rSoFjr6HRs64Y6Q3_sDDhA
+[2018-09-23 11:09:34,106][INFO ][cluster.service          ] [Bloodaxe] new_master {Bloodaxe}{rSoFjr6HRs64Y6Q3_sDDhA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 11:09:34,206][INFO ][gateway                  ] [Bloodaxe] recovered [4] indices into cluster_state
+[2018-09-23 11:09:34,771][INFO ][http                     ] [Bloodaxe] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 11:09:34,772][INFO ][node                     ] [Bloodaxe] started
+[2018-09-23 11:09:34,803][INFO ][cluster.routing.allocation] [Bloodaxe] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][0]] ...]).
+[2018-09-23 11:09:48,634][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-23 11:09:48,634][INFO ][node                     ] [Bloodaxe] stopping ...
+[2018-09-23 11:09:48,717][INFO ][node                     ] [Bloodaxe] stopped
+[2018-09-23 11:09:48,717][INFO ][node                     ] [Bloodaxe] closing ...
+[2018-09-23 11:09:48,721][INFO ][node                     ] [Bloodaxe] closed
+[2018-09-23 11:10:04,343][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:10:04,591][INFO ][node                     ] [Valkyrie] version[2.4.2], pid[3528], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:10:04,591][INFO ][node                     ] [Valkyrie] initializing ...
+[2018-09-23 11:10:05,123][INFO ][plugins                  ] [Valkyrie] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:10:05,150][INFO ][env                      ] [Valkyrie] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [41.6gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:10:05,150][INFO ][env                      ] [Valkyrie] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:10:07,664][INFO ][node                     ] [Valkyrie] initialized
+[2018-09-23 11:10:07,664][INFO ][node                     ] [Valkyrie] starting ...
+[2018-09-23 11:10:08,200][INFO ][transport                ] [Valkyrie] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 11:10:08,204][INFO ][discovery                ] [Valkyrie] elasticsearch/CHkKnqqmR_WiajWxhr4dBA
+[2018-09-23 11:10:12,245][INFO ][cluster.service          ] [Valkyrie] new_master {Valkyrie}{CHkKnqqmR_WiajWxhr4dBA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 11:10:12,341][INFO ][gateway                  ] [Valkyrie] recovered [4] indices into cluster_state
+[2018-09-23 11:10:12,822][INFO ][http                     ] [Valkyrie] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 11:10:12,822][INFO ][node                     ] [Valkyrie] started
+[2018-09-23 11:10:12,873][INFO ][cluster.routing.allocation] [Valkyrie] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][2]] ...]).
+[2018-09-23 11:12:18,477][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-23 11:12:18,477][INFO ][node                     ] [Valkyrie] stopping ...
+[2018-09-23 11:12:18,548][INFO ][node                     ] [Valkyrie] stopped
+[2018-09-23 11:12:18,549][INFO ][node                     ] [Valkyrie] closing ...
+[2018-09-23 11:12:18,552][INFO ][node                     ] [Valkyrie] closed
+[2018-09-23 11:13:06,017][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:13:06,262][INFO ][node                     ] [Alibar] version[2.4.2], pid[6028], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:13:06,263][INFO ][node                     ] [Alibar] initializing ...
+[2018-09-23 11:13:06,784][INFO ][plugins                  ] [Alibar] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:13:06,803][INFO ][env                      ] [Alibar] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [41.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:13:06,803][INFO ][env                      ] [Alibar] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:13:09,426][INFO ][node                     ] [Alibar] initialized
+[2018-09-23 11:13:09,427][INFO ][node                     ] [Alibar] starting ...
+[2018-09-23 11:13:09,963][INFO ][transport                ] [Alibar] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 11:13:09,967][INFO ][discovery                ] [Alibar] elasticsearch/hqx5FT_TQBSS5N0tOGzuTQ
+[2018-09-23 11:13:13,998][INFO ][cluster.service          ] [Alibar] new_master {Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 11:13:14,099][INFO ][gateway                  ] [Alibar] recovered [4] indices into cluster_state
+[2018-09-23 11:13:14,602][INFO ][http                     ] [Alibar] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 11:13:14,602][INFO ][node                     ] [Alibar] started
+[2018-09-23 11:13:14,661][INFO ][cluster.routing.allocation] [Alibar] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][1]] ...]).
+[2018-09-23 11:23:48,731][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:23:48,960][INFO ][node                     ] [Night Thrasher] version[2.4.2], pid[4452], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:23:48,960][INFO ][node                     ] [Night Thrasher] initializing ...
+[2018-09-23 11:23:49,480][INFO ][plugins                  ] [Night Thrasher] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:23:49,501][INFO ][env                      ] [Night Thrasher] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [40.2gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:23:49,502][INFO ][env                      ] [Night Thrasher] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:23:51,956][INFO ][node                     ] [Night Thrasher] initialized
+[2018-09-23 11:23:51,956][INFO ][node                     ] [Night Thrasher] starting ...
+[2018-09-23 11:23:52,480][INFO ][transport                ] [Night Thrasher] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2018-09-23 11:23:52,484][INFO ][discovery                ] [Night Thrasher] elasticsearch/B9cBvi-GSpeF19lJmeFIdw
+[2018-09-23 11:23:56,551][INFO ][cluster.service          ] [Alibar] added {{Night Thrasher}{B9cBvi-GSpeF19lJmeFIdw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Night Thrasher}{B9cBvi-GSpeF19lJmeFIdw}{127.0.0.1}{127.0.0.1:9301}])
+[2018-09-23 11:23:56,558][INFO ][cluster.service          ] [Night Thrasher] detected_master {Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300}, added {{Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [{Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300}])
+[2018-09-23 11:23:57,106][INFO ][http                     ] [Night Thrasher] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2018-09-23 11:23:57,107][INFO ][node                     ] [Night Thrasher] started
+[2018-09-23 11:23:59,776][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-23 11:23:59,777][INFO ][node                     ] [Night Thrasher] stopping ...
+[2018-09-23 11:23:59,792][INFO ][cluster.service          ] [Alibar] removed {{Night Thrasher}{B9cBvi-GSpeF19lJmeFIdw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-node-left({Night Thrasher}{B9cBvi-GSpeF19lJmeFIdw}{127.0.0.1}{127.0.0.1:9301}), reason(left)
+[2018-09-23 11:23:59,792][INFO ][cluster.routing          ] [Alibar] delaying allocation for [9] unassigned shards, next check in [1m]
+[2018-09-23 11:23:59,812][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by an exception handler.
+java.util.concurrent.RejectedExecutionException: Worker has already been shutdown
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.registerTask(AbstractNioSelector.java:120)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.executeInIoThread(AbstractNioWorker.java:72)
+	at org.jboss.netty.channel.socket.nio.NioWorker.executeInIoThread(NioWorker.java:36)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.executeInIoThread(AbstractNioWorker.java:56)
+	at org.jboss.netty.channel.socket.nio.NioWorker.executeInIoThread(NioWorker.java:36)
+	at org.jboss.netty.channel.socket.nio.AbstractNioChannelSink.execute(AbstractNioChannelSink.java:34)
+	at org.jboss.netty.channel.DefaultChannelPipeline.execute(DefaultChannelPipeline.java:636)
+	at org.jboss.netty.channel.Channels.fireExceptionCaughtLater(Channels.java:496)
+	at org.jboss.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:46)
+	at org.jboss.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:577)
+	at org.jboss.netty.channel.Channels.write(Channels.java:704)
+	at org.jboss.netty.channel.Channels.write(Channels.java:671)
+	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:347)
+	at org.elasticsearch.transport.netty.NettyTransportChannel.sendResponse(NettyTransportChannel.java:110)
+	at org.elasticsearch.transport.netty.NettyTransportChannel.sendResponse(NettyTransportChannel.java:80)
+	at org.elasticsearch.transport.DelegatingTransportChannel.sendResponse(DelegatingTransportChannel.java:58)
+	at org.elasticsearch.transport.RequestHandlerRegistry$TransportChannelWrapper.sendResponse(RequestHandlerRegistry.java:140)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:277)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$PrepareForTranslogOperationsRequestHandler.messageReceived(RecoveryTarget.java:268)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.netty.MessageChannelHandler$RequestHandler.doRun(MessageChannelHandler.java:293)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:23:59,827][WARN ][indices.cluster          ] [Night Thrasher] [[how2java][2]] marking and sending shard failed due to [failed recovery]
+RecoveryFailedException[[how2java][2]: Recovery failed from {Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300} into {Night Thrasher}{B9cBvi-GSpeF19lJmeFIdw}{127.0.0.1}{127.0.0.1:9301}]; nested: SendRequestTransportException[[Alibar][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: TransportException[TransportService is closed stopped can't send request];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: SendRequestTransportException[[Alibar][127.0.0.1:9300][internal:index/shard/recovery/start_recovery]]; nested: TransportException[TransportService is closed stopped can't send request];
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:340)
+	at org.elasticsearch.transport.TransportService.submitRequest(TransportService.java:293)
+	at org.elasticsearch.transport.TransportService.submitRequest(TransportService.java:287)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$2.run(RecoveryTarget.java:181)
+	at org.elasticsearch.common.util.CancellableThreads.execute(CancellableThreads.java:86)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:178)
+	... 6 more
+Caused by: TransportException[TransportService is closed stopped can't send request]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:320)
+	... 11 more
+[2018-09-23 11:23:59,829][WARN ][cluster.action.shard     ] [Night Thrasher] failed to send failed shard to {Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300}
+SendRequestTransportException[[Alibar][127.0.0.1:9300][internal:cluster/shard/failure]]; nested: TransportException[TransportService is closed stopped can't send request];
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:340)
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:299)
+	at org.elasticsearch.cluster.action.shard.ShardStateAction.innerShardFailed(ShardStateAction.java:102)
+	at org.elasticsearch.cluster.action.shard.ShardStateAction.shardFailed(ShardStateAction.java:92)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.sendFailShard(IndicesClusterStateService.java:781)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.failAndRemoveShard(IndicesClusterStateService.java:773)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.handleRecoveryFailure(IndicesClusterStateService.java:740)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.access$300(IndicesClusterStateService.java:80)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService$PeerRecoveryListener.onRecoveryFailure(IndicesClusterStateService.java:734)
+	at org.elasticsearch.indices.recovery.RecoveryStatus.fail(RecoveryStatus.java:175)
+	at org.elasticsearch.indices.recovery.RecoveriesCollection.failRecovery(RecoveriesCollection.java:122)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[TransportService is closed stopped can't send request]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:320)
+	... 17 more
+[2018-09-23 11:23:59,843][WARN ][indices.cluster          ] [Night Thrasher] [[how2java][3]] marking and sending shard failed due to [failed recovery]
+RecoveryFailedException[[how2java][3]: Recovery failed from {Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300} into {Night Thrasher}{B9cBvi-GSpeF19lJmeFIdw}{127.0.0.1}{127.0.0.1:9301}]; nested: TransportException[transport stopped, action: internal:index/shard/recovery/start_recovery];
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:index/shard/recovery/start_recovery]
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	... 3 more
+[2018-09-23 11:23:59,843][WARN ][cluster.action.shard     ] [Night Thrasher] failed to send failed shard to {Alibar}{hqx5FT_TQBSS5N0tOGzuTQ}{127.0.0.1}{127.0.0.1:9300}
+SendRequestTransportException[[Alibar][127.0.0.1:9300][internal:cluster/shard/failure]]; nested: TransportException[TransportService is closed stopped can't send request];
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:340)
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:299)
+	at org.elasticsearch.cluster.action.shard.ShardStateAction.innerShardFailed(ShardStateAction.java:102)
+	at org.elasticsearch.cluster.action.shard.ShardStateAction.shardFailed(ShardStateAction.java:92)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.sendFailShard(IndicesClusterStateService.java:781)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.failAndRemoveShard(IndicesClusterStateService.java:773)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.handleRecoveryFailure(IndicesClusterStateService.java:740)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService.access$300(IndicesClusterStateService.java:80)
+	at org.elasticsearch.indices.cluster.IndicesClusterStateService$PeerRecoveryListener.onRecoveryFailure(IndicesClusterStateService.java:734)
+	at org.elasticsearch.indices.recovery.RecoveryStatus.fail(RecoveryStatus.java:175)
+	at org.elasticsearch.indices.recovery.RecoveriesCollection.failRecovery(RecoveriesCollection.java:122)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.doRecovery(RecoveryTarget.java:258)
+	at org.elasticsearch.indices.recovery.RecoveryTarget.access$1100(RecoveryTarget.java:69)
+	at org.elasticsearch.indices.recovery.RecoveryTarget$RecoveryRunner.doRun(RecoveryTarget.java:508)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[TransportService is closed stopped can't send request]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:320)
+	... 17 more
+[2018-09-23 11:23:59,865][INFO ][node                     ] [Night Thrasher] stopped
+[2018-09-23 11:23:59,865][INFO ][node                     ] [Night Thrasher] closing ...
+[2018-09-23 11:23:59,870][INFO ][node                     ] [Night Thrasher] closed
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xc3dfd12d, /127.0.0.1:55803 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xd6374ca7, /127.0.0.1:55805 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0x543a8317, /127.0.0.1:55807 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0x2ba2556c, /127.0.0.1:55816 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0x383800c7, /127.0.0.1:55810 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0x0fa65d7c, /127.0.0.1:55815 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0x911a349d, /127.0.0.1:55808 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xcb15905c, /127.0.0.1:55804 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0x353c2cef, /127.0.0.1:55809 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xcf67ddfd, /127.0.0.1:55806 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xaafe80c9, /127.0.0.1:55811 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xc4dfaa37, /127.0.0.1:55813 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xb4029b59, /127.0.0.1:55812 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:25:42,577][WARN ][transport.netty          ] [Alibar] exception caught on transport layer [[id: 0xb2c20fe6, /127.0.0.1:55814 => /127.0.0.1:9300]], closing connection
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-23 11:26:52,959][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-23 11:26:52,960][INFO ][node                     ] [Alibar] stopping ...
+[2018-09-23 11:26:53,048][INFO ][node                     ] [Alibar] stopped
+[2018-09-23 11:26:53,049][INFO ][node                     ] [Alibar] closing ...
+[2018-09-23 11:26:53,053][INFO ][node                     ] [Alibar] closed
+[2018-09-23 11:27:17,353][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:27:17,549][INFO ][node                     ] [The Amazing Tanwir Ahmed] version[2.4.2], pid[7960], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:27:17,549][INFO ][node                     ] [The Amazing Tanwir Ahmed] initializing ...
+[2018-09-23 11:27:17,977][INFO ][plugins                  ] [The Amazing Tanwir Ahmed] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:27:17,994][INFO ][env                      ] [The Amazing Tanwir Ahmed] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [39.9gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:27:17,995][INFO ][env                      ] [The Amazing Tanwir Ahmed] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:27:20,252][INFO ][node                     ] [The Amazing Tanwir Ahmed] initialized
+[2018-09-23 11:27:20,253][INFO ][node                     ] [The Amazing Tanwir Ahmed] starting ...
+[2018-09-23 11:27:20,790][INFO ][transport                ] [The Amazing Tanwir Ahmed] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 11:27:20,794][INFO ][discovery                ] [The Amazing Tanwir Ahmed] elasticsearch/9k6EGnLSTLKNxVzbCmFeqg
+[2018-09-23 11:27:24,849][INFO ][cluster.service          ] [The Amazing Tanwir Ahmed] new_master {The Amazing Tanwir Ahmed}{9k6EGnLSTLKNxVzbCmFeqg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 11:27:24,957][INFO ][gateway                  ] [The Amazing Tanwir Ahmed] recovered [4] indices into cluster_state
+[2018-09-23 11:27:25,391][INFO ][http                     ] [The Amazing Tanwir Ahmed] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 11:27:25,391][INFO ][node                     ] [The Amazing Tanwir Ahmed] started
+[2018-09-23 11:27:25,458][INFO ][cluster.routing.allocation] [The Amazing Tanwir Ahmed] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][0], [testgoods][0]] ...]).
+[2018-09-23 11:59:04,891][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 11:59:05,092][INFO ][node                     ] [Leonus] version[2.4.2], pid[3816], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 11:59:05,093][INFO ][node                     ] [Leonus] initializing ...
+[2018-09-23 11:59:05,540][INFO ][plugins                  ] [Leonus] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 11:59:05,557][INFO ][env                      ] [Leonus] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [39.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 11:59:05,557][INFO ][env                      ] [Leonus] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 11:59:07,726][INFO ][node                     ] [Leonus] initialized
+[2018-09-23 11:59:07,726][INFO ][node                     ] [Leonus] starting ...
+[2018-09-23 11:59:08,204][INFO ][transport                ] [Leonus] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 11:59:08,208][INFO ][discovery                ] [Leonus] elasticsearch/P9VQStRtR7-ZEN50SoFZmw
+[2018-09-23 11:59:12,268][INFO ][cluster.service          ] [Leonus] new_master {Leonus}{P9VQStRtR7-ZEN50SoFZmw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 11:59:12,373][INFO ][gateway                  ] [Leonus] recovered [4] indices into cluster_state
+[2018-09-23 11:59:12,792][INFO ][http                     ] [Leonus] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 11:59:12,793][INFO ][node                     ] [Leonus] started
+[2018-09-23 11:59:12,883][INFO ][cluster.routing.allocation] [Leonus] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][3], [testgoods][3]] ...]).
+[2018-09-23 11:59:25,609][INFO ][node                     ] [Leonus] stopping ...
+[2018-09-23 11:59:25,777][INFO ][node                     ] [Leonus] stopped
+[2018-09-23 11:59:25,778][INFO ][node                     ] [Leonus] closing ...
+[2018-09-23 11:59:25,781][INFO ][node                     ] [Leonus] closed
+[2018-09-23 12:07:17,050][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 12:07:17,246][INFO ][node                     ] [Thunderstrike] version[2.4.2], pid[11024], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 12:07:17,247][INFO ][node                     ] [Thunderstrike] initializing ...
+[2018-09-23 12:07:17,667][INFO ][plugins                  ] [Thunderstrike] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 12:07:17,689][INFO ][env                      ] [Thunderstrike] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [39.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 12:07:17,689][INFO ][env                      ] [Thunderstrike] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 12:07:19,861][INFO ][node                     ] [Thunderstrike] initialized
+[2018-09-23 12:07:19,861][INFO ][node                     ] [Thunderstrike] starting ...
+[2018-09-23 12:07:20,336][INFO ][transport                ] [Thunderstrike] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 12:07:20,342][INFO ][discovery                ] [Thunderstrike] elasticsearch/pSDbapUDTh2UoCKd67og5g
+[2018-09-23 12:07:23,429][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-23 12:07:23,429][INFO ][node                     ] [Thunderstrike] stopping ...
+[2018-09-23 12:07:24,423][INFO ][node                     ] [Thunderstrike] stopped
+[2018-09-23 12:07:24,423][INFO ][node                     ] [Thunderstrike] closing ...
+[2018-09-23 12:07:24,428][INFO ][node                     ] [Thunderstrike] closed
+[2018-09-23 12:07:52,960][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-23 12:07:53,151][INFO ][node                     ] [Alibar] version[2.4.2], pid[472], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-23 12:07:53,151][INFO ][node                     ] [Alibar] initializing ...
+[2018-09-23 12:07:53,575][INFO ][plugins                  ] [Alibar] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-23 12:07:53,592][INFO ][env                      ] [Alibar] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [39.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-23 12:07:53,593][INFO ][env                      ] [Alibar] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-23 12:07:55,763][INFO ][node                     ] [Alibar] initialized
+[2018-09-23 12:07:55,764][INFO ][node                     ] [Alibar] starting ...
+[2018-09-23 12:07:56,229][INFO ][transport                ] [Alibar] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-23 12:07:56,233][INFO ][discovery                ] [Alibar] elasticsearch/fbUMWxFOTXGo-c1iZQmVog
+[2018-09-23 12:08:00,295][INFO ][cluster.service          ] [Alibar] new_master {Alibar}{fbUMWxFOTXGo-c1iZQmVog}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-23 12:08:00,408][INFO ][gateway                  ] [Alibar] recovered [4] indices into cluster_state
+[2018-09-23 12:08:00,843][INFO ][http                     ] [Alibar] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-23 12:08:00,844][INFO ][node                     ] [Alibar] started
+[2018-09-23 12:08:00,928][INFO ][cluster.routing.allocation] [Alibar] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][4]] ...]).

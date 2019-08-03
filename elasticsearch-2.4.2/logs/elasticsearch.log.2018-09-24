@@ -1,0 +1,126 @@
+[2018-09-24 09:03:43,256][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-24 09:03:43,441][INFO ][node                     ] [Fan Boy] version[2.4.2], pid[6116], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-24 09:03:43,441][INFO ][node                     ] [Fan Boy] initializing ...
+[2018-09-24 09:03:43,981][INFO ][plugins                  ] [Fan Boy] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-24 09:03:44,005][INFO ][env                      ] [Fan Boy] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [40.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-24 09:03:44,005][INFO ][env                      ] [Fan Boy] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-24 09:03:46,814][INFO ][node                     ] [Fan Boy] initialized
+[2018-09-24 09:03:46,814][INFO ][node                     ] [Fan Boy] starting ...
+[2018-09-24 09:03:47,415][INFO ][transport                ] [Fan Boy] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-24 09:03:47,431][INFO ][discovery                ] [Fan Boy] elasticsearch/2ZGD8xGtRzaxm3FTW2I-8g
+[2018-09-24 09:03:51,513][INFO ][cluster.service          ] [Fan Boy] new_master {Fan Boy}{2ZGD8xGtRzaxm3FTW2I-8g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-24 09:03:51,607][INFO ][gateway                  ] [Fan Boy] recovered [4] indices into cluster_state
+[2018-09-24 09:03:52,083][INFO ][http                     ] [Fan Boy] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-24 09:03:52,083][INFO ][node                     ] [Fan Boy] started
+[2018-09-24 09:03:52,162][INFO ][cluster.routing.allocation] [Fan Boy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][0]] ...]).
+[2018-09-24 09:04:07,406][INFO ][node                     ] [Fan Boy] stopping ...
+[2018-09-24 09:04:07,581][INFO ][node                     ] [Fan Boy] stopped
+[2018-09-24 09:04:07,581][INFO ][node                     ] [Fan Boy] closing ...
+[2018-09-24 09:04:07,581][INFO ][node                     ] [Fan Boy] closed
+[2018-09-24 09:04:12,016][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-24 09:04:12,204][INFO ][node                     ] [Typhoid] version[2.4.2], pid[5868], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-24 09:04:12,204][INFO ][node                     ] [Typhoid] initializing ...
+[2018-09-24 09:04:12,625][INFO ][plugins                  ] [Typhoid] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-24 09:04:12,641][INFO ][env                      ] [Typhoid] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [40.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-24 09:04:12,641][INFO ][env                      ] [Typhoid] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-24 09:04:14,786][INFO ][node                     ] [Typhoid] initialized
+[2018-09-24 09:04:14,786][INFO ][node                     ] [Typhoid] starting ...
+[2018-09-24 09:04:15,261][INFO ][transport                ] [Typhoid] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-24 09:04:15,261][INFO ][discovery                ] [Typhoid] elasticsearch/mSxQ5MeYQg2s_nfcfy3NBw
+[2018-09-24 09:04:19,353][INFO ][cluster.service          ] [Typhoid] new_master {Typhoid}{mSxQ5MeYQg2s_nfcfy3NBw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-24 09:04:19,463][INFO ][gateway                  ] [Typhoid] recovered [4] indices into cluster_state
+[2018-09-24 09:04:19,904][INFO ][http                     ] [Typhoid] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-24 09:04:19,904][INFO ][node                     ] [Typhoid] started
+[2018-09-24 09:04:20,005][INFO ][cluster.routing.allocation] [Typhoid] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][4]] ...]).
+[2018-09-24 09:04:27,501][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-24 09:04:27,501][INFO ][node                     ] [Typhoid] stopping ...
+[2018-09-24 09:04:27,579][INFO ][node                     ] [Typhoid] stopped
+[2018-09-24 09:04:27,579][INFO ][node                     ] [Typhoid] closing ...
+[2018-09-24 09:04:27,579][INFO ][node                     ] [Typhoid] closed
+[2018-09-24 09:04:55,572][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-24 09:04:55,791][INFO ][node                     ] [Ursa Major] version[2.4.2], pid[5292], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-24 09:04:55,791][INFO ][node                     ] [Ursa Major] initializing ...
+[2018-09-24 09:04:56,213][INFO ][plugins                  ] [Ursa Major] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-24 09:04:56,229][INFO ][env                      ] [Ursa Major] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [40.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-24 09:04:56,229][INFO ][env                      ] [Ursa Major] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-24 09:04:56,958][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-24 09:05:02,348][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-24 09:05:02,535][INFO ][node                     ] [Aldebron] version[2.4.2], pid[10820], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-24 09:05:02,535][INFO ][node                     ] [Aldebron] initializing ...
+[2018-09-24 09:05:02,960][INFO ][plugins                  ] [Aldebron] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-24 09:05:02,977][INFO ][env                      ] [Aldebron] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [40.5gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-24 09:05:02,977][INFO ][env                      ] [Aldebron] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-24 09:05:05,094][INFO ][node                     ] [Aldebron] initialized
+[2018-09-24 09:05:05,094][INFO ][node                     ] [Aldebron] starting ...
+[2018-09-24 09:05:05,610][INFO ][transport                ] [Aldebron] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-24 09:05:05,610][INFO ][discovery                ] [Aldebron] elasticsearch/bxAuOf_tTnyvoLeSD6i01A
+[2018-09-24 09:05:09,696][INFO ][cluster.service          ] [Aldebron] new_master {Aldebron}{bxAuOf_tTnyvoLeSD6i01A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-24 09:05:09,789][INFO ][gateway                  ] [Aldebron] recovered [4] indices into cluster_state
+[2018-09-24 09:05:10,245][INFO ][http                     ] [Aldebron] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-24 09:05:10,245][INFO ][node                     ] [Aldebron] started
+[2018-09-24 09:05:10,323][INFO ][cluster.routing.allocation] [Aldebron] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][0]] ...]).
+[2018-09-24 09:12:30,114][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-24 09:12:30,114][INFO ][node                     ] [Aldebron] stopping ...
+[2018-09-24 09:12:30,192][INFO ][node                     ] [Aldebron] stopped
+[2018-09-24 09:12:30,192][INFO ][node                     ] [Aldebron] closing ...
+[2018-09-24 09:12:30,192][INFO ][node                     ] [Aldebron] closed
+[2018-09-24 09:21:57,348][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-24 09:21:57,547][INFO ][node                     ] [Armand Martel] version[2.4.2], pid[9440], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-24 09:21:57,548][INFO ][node                     ] [Armand Martel] initializing ...
+[2018-09-24 09:21:58,029][INFO ][plugins                  ] [Armand Martel] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-24 09:21:58,058][INFO ][env                      ] [Armand Martel] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [39.1gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-24 09:21:58,058][INFO ][env                      ] [Armand Martel] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-24 09:22:01,093][INFO ][node                     ] [Armand Martel] initialized
+[2018-09-24 09:22:01,093][INFO ][node                     ] [Armand Martel] starting ...
+[2018-09-24 09:22:01,631][INFO ][transport                ] [Armand Martel] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-24 09:22:01,631][INFO ][discovery                ] [Armand Martel] elasticsearch/Lg1lwZeGSZyUmefIibOfwA
+[2018-09-24 09:22:05,678][INFO ][cluster.service          ] [Armand Martel] new_master {Armand Martel}{Lg1lwZeGSZyUmefIibOfwA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-24 09:22:05,773][INFO ][gateway                  ] [Armand Martel] recovered [4] indices into cluster_state
+[2018-09-24 09:22:06,211][INFO ][http                     ] [Armand Martel] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-24 09:22:06,211][INFO ][node                     ] [Armand Martel] started
+[2018-09-24 09:22:06,335][INFO ][cluster.routing.allocation] [Armand Martel] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][0], [testgoods][0]] ...]).
+[2018-09-24 09:26:43,562][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-24 09:26:43,562][INFO ][node                     ] [Armand Martel] stopping ...
+[2018-09-24 09:26:43,674][INFO ][node                     ] [Armand Martel] stopped
+[2018-09-24 09:26:43,674][INFO ][node                     ] [Armand Martel] closing ...
+[2018-09-24 09:26:43,679][INFO ][node                     ] [Armand Martel] closed
+[2018-09-24 17:08:30,301][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-24 17:08:30,556][INFO ][node                     ] [Master Pandemonium] version[2.4.2], pid[12380], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-24 17:08:30,556][INFO ][node                     ] [Master Pandemonium] initializing ...
+[2018-09-24 17:08:31,186][INFO ][plugins                  ] [Master Pandemonium] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-24 17:08:31,217][INFO ][env                      ] [Master Pandemonium] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [39.7gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-24 17:08:31,218][INFO ][env                      ] [Master Pandemonium] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-24 17:08:34,348][INFO ][node                     ] [Master Pandemonium] initialized
+[2018-09-24 17:08:34,349][INFO ][node                     ] [Master Pandemonium] starting ...
+[2018-09-24 17:08:35,167][INFO ][transport                ] [Master Pandemonium] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-24 17:08:35,177][INFO ][discovery                ] [Master Pandemonium] elasticsearch/I9PFbE6ETtq-mEp9Utk_ug
+[2018-09-24 17:08:39,212][INFO ][cluster.service          ] [Master Pandemonium] new_master {Master Pandemonium}{I9PFbE6ETtq-mEp9Utk_ug}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-24 17:08:39,330][INFO ][gateway                  ] [Master Pandemonium] recovered [4] indices into cluster_state
+[2018-09-24 17:08:39,997][INFO ][http                     ] [Master Pandemonium] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-24 17:08:39,997][INFO ][node                     ] [Master Pandemonium] started
+[2018-09-24 17:08:40,118][INFO ][cluster.routing.allocation] [Master Pandemonium] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][0], [testgoods][0]] ...]).
+[2018-09-24 17:10:19,395][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-24 17:10:19,395][INFO ][node                     ] [Master Pandemonium] stopping ...
+[2018-09-24 17:10:19,460][INFO ][node                     ] [Master Pandemonium] stopped
+[2018-09-24 17:10:19,460][INFO ][node                     ] [Master Pandemonium] closing ...
+[2018-09-24 17:10:19,463][INFO ][node                     ] [Master Pandemonium] closed
+[2018-09-24 22:47:09,259][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-24 22:47:09,511][INFO ][node                     ] [War] version[2.4.2], pid[12776], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-24 22:47:09,511][INFO ][node                     ] [War] initializing ...
+[2018-09-24 22:47:10,057][INFO ][plugins                  ] [War] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-24 22:47:10,093][INFO ][env                      ] [War] using [1] data paths, mounts [[新加卷 (E:)]], net usable_space [40.1gb], net total_space [72.3gb], spins? [unknown], types [NTFS]
+[2018-09-24 22:47:10,094][INFO ][env                      ] [War] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-24 22:47:13,125][INFO ][node                     ] [War] initialized
+[2018-09-24 22:47:13,125][INFO ][node                     ] [War] starting ...
+[2018-09-24 22:47:13,760][INFO ][transport                ] [War] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-24 22:47:13,768][INFO ][discovery                ] [War] elasticsearch/psJQgRg8SrykWCjIMwD8YQ
+[2018-09-24 22:47:17,807][INFO ][cluster.service          ] [War] new_master {War}{psJQgRg8SrykWCjIMwD8YQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-24 22:47:17,926][INFO ][gateway                  ] [War] recovered [4] indices into cluster_state
+[2018-09-24 22:47:18,499][INFO ][http                     ] [War] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-24 22:47:18,499][INFO ][node                     ] [War] started
+[2018-09-24 22:47:18,612][INFO ][cluster.routing.allocation] [War] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][1]] ...]).
+[2018-09-24 22:59:25,344][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-24 22:59:25,345][INFO ][node                     ] [War] stopping ...
+[2018-09-24 22:59:25,422][INFO ][node                     ] [War] stopped
+[2018-09-24 22:59:25,423][INFO ][node                     ] [War] closing ...
+[2018-09-24 22:59:25,427][INFO ][node                     ] [War] closed

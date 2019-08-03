@@ -1,0 +1,217 @@
+[2018-09-16 19:28:18,548][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-16 19:28:18,764][INFO ][node                     ] [Sergei Kravinoff] version[2.4.2], pid[12072], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-16 19:28:18,764][INFO ][node                     ] [Sergei Kravinoff] initializing ...
+[2018-09-16 19:28:19,337][INFO ][plugins                  ] [Sergei Kravinoff] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-16 19:28:19,356][INFO ][env                      ] [Sergei Kravinoff] using [1] data paths, mounts [[新加卷 (F:)]], net usable_space [169.4gb], net total_space [238.4gb], spins? [unknown], types [NTFS]
+[2018-09-16 19:28:19,358][INFO ][env                      ] [Sergei Kravinoff] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-16 19:28:21,829][INFO ][node                     ] [Sergei Kravinoff] initialized
+[2018-09-16 19:28:21,829][INFO ][node                     ] [Sergei Kravinoff] starting ...
+[2018-09-16 19:28:22,498][INFO ][transport                ] [Sergei Kravinoff] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2018-09-16 19:28:22,503][INFO ][discovery                ] [Sergei Kravinoff] elasticsearch/1PvzEKYNTTiPBFXj_Ahw7g
+[2018-09-16 19:28:26,532][INFO ][cluster.service          ] [Sergei Kravinoff] new_master {Sergei Kravinoff}{1PvzEKYNTTiPBFXj_Ahw7g}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-16 19:28:26,579][INFO ][gateway                  ] [Sergei Kravinoff] recovered [0] indices into cluster_state
+[2018-09-16 19:28:27,122][INFO ][http                     ] [Sergei Kravinoff] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2018-09-16 19:28:27,122][INFO ][node                     ] [Sergei Kravinoff] started
+[2018-09-16 19:35:21,241][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-16 19:35:21,241][INFO ][node                     ] [Sergei Kravinoff] stopping ...
+[2018-09-16 19:35:21,264][INFO ][node                     ] [Sergei Kravinoff] stopped
+[2018-09-16 19:35:21,264][INFO ][node                     ] [Sergei Kravinoff] closing ...
+[2018-09-16 19:35:21,267][INFO ][node                     ] [Sergei Kravinoff] closed
+[2018-09-16 19:35:34,736][WARN ][bootstrap                ] jvm uses the client vm, make sure to run `java` with the server vm for best performance by adding `-server` to the command line
+[2018-09-16 19:35:34,932][INFO ][node                     ] [Commander Kraken] version[2.4.2], pid[8820], build[161c65a/2016-11-17T11:51:03Z]
+[2018-09-16 19:35:34,932][INFO ][node                     ] [Commander Kraken] initializing ...
+[2018-09-16 19:35:35,379][INFO ][plugins                  ] [Commander Kraken] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2018-09-16 19:35:35,397][INFO ][env                      ] [Commander Kraken] using [1] data paths, mounts [[新加卷 (F:)]], net usable_space [169.4gb], net total_space [238.4gb], spins? [unknown], types [NTFS]
+[2018-09-16 19:35:35,397][INFO ][env                      ] [Commander Kraken] heap size [989.8mb], compressed ordinary object pointers [unknown]
+[2018-09-16 19:35:37,658][INFO ][node                     ] [Commander Kraken] initialized
+[2018-09-16 19:35:37,658][INFO ][node                     ] [Commander Kraken] starting ...
+[2018-09-16 19:35:38,218][INFO ][transport                ] [Commander Kraken] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-09-16 19:35:38,222][INFO ][discovery                ] [Commander Kraken] elasticsearch/rIK_fGMuTumMX6lXuuwv-w
+[2018-09-16 19:35:42,270][INFO ][cluster.service          ] [Commander Kraken] new_master {Commander Kraken}{rIK_fGMuTumMX6lXuuwv-w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2018-09-16 19:35:42,322][INFO ][gateway                  ] [Commander Kraken] recovered [0] indices into cluster_state
+[2018-09-16 19:35:42,804][INFO ][http                     ] [Commander Kraken] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-09-16 19:35:42,805][INFO ][node                     ] [Commander Kraken] started
+[2018-09-16 19:36:15,475][INFO ][cluster.metadata         ] [Commander Kraken] [testgoods] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings []
+[2018-09-16 19:36:15,729][INFO ][cluster.routing.allocation] [Commander Kraken] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[testgoods][4]] ...]).
+[2018-09-16 19:36:15,791][INFO ][cluster.metadata         ] [Commander Kraken] [testgoods] create_mapping [goods]
+[2018-09-16 19:36:47,431][WARN ][http.netty               ] [Commander Kraken] Caught exception while handling client http traffic, closing connection [id: 0x86502715, /127.0.0.1:64583 => /127.0.0.1:9200]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-16 19:36:47,431][WARN ][http.netty               ] [Commander Kraken] Caught exception while handling client http traffic, closing connection [id: 0xb78d893d, /127.0.0.1:64584 => /127.0.0.1:9200]
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2018-09-16 19:44:46,204][INFO ][cluster.metadata         ] [Commander Kraken] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings [config]
+[2018-09-16 19:44:46,263][INFO ][cluster.routing.allocation] [Commander Kraken] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2018-09-16 19:45:01,042][INFO ][cluster.metadata         ] [Commander Kraken] [.kibana] create_mapping [index-pattern]
+[2018-09-16 19:53:33,075][INFO ][cluster.metadata         ] [Commander Kraken] [.kibana] update_mapping [config]
+[2018-09-16 19:54:04,023][INFO ][cluster.metadata         ] [Commander Kraken] [.kibana] create_mapping [search]
+[2018-09-16 19:55:43,767][INFO ][cluster.metadata         ] [Commander Kraken] [how2java] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2018-09-16 19:55:43,855][INFO ][cluster.metadata         ] [Commander Kraken] [how2java] create_mapping [category]
+[2018-09-16 19:55:43,862][INFO ][cluster.routing.allocation] [Commander Kraken] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[how2java][4]] ...]).
+[2018-09-16 19:58:14,969][DEBUG][action.search            ] [Commander Kraken] [how2java][1], node[rIK_fGMuTumMX6lXuuwv-w], [P], v[2], s[STARTED], a[id=sHh4-TA4RgKoVbbgTodqZA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e262af] lastShard [true]
+RemoteTransportException[[Commander Kraken][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+Caused by: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: SearchParseException[No mapping found for [id] in order to sort on]
+	at org.elasticsearch.search.sort.SortParseElement.addSortField(SortParseElement.java:213)
+	at org.elasticsearch.search.sort.SortParseElement.addCompoundSortField(SortParseElement.java:187)
+	at org.elasticsearch.search.sort.SortParseElement.parse(SortParseElement.java:85)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2018-09-16 19:58:14,969][DEBUG][action.search            ] [Commander Kraken] [how2java][2], node[rIK_fGMuTumMX6lXuuwv-w], [P], v[2], s[STARTED], a[id=M-iCY9vaRjWpPqqAggi8tA]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e262af] lastShard [true]
+RemoteTransportException[[Commander Kraken][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+Caused by: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: SearchParseException[No mapping found for [id] in order to sort on]
+	at org.elasticsearch.search.sort.SortParseElement.addSortField(SortParseElement.java:213)
+	at org.elasticsearch.search.sort.SortParseElement.addCompoundSortField(SortParseElement.java:187)
+	at org.elasticsearch.search.sort.SortParseElement.parse(SortParseElement.java:85)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2018-09-16 19:58:14,969][DEBUG][action.search            ] [Commander Kraken] [how2java][3], node[rIK_fGMuTumMX6lXuuwv-w], [P], v[2], s[STARTED], a[id=7WnJrH4qSKKmVL1nNfoqXg]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e262af] lastShard [true]
+RemoteTransportException[[Commander Kraken][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+Caused by: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: SearchParseException[No mapping found for [id] in order to sort on]
+	at org.elasticsearch.search.sort.SortParseElement.addSortField(SortParseElement.java:213)
+	at org.elasticsearch.search.sort.SortParseElement.addCompoundSortField(SortParseElement.java:187)
+	at org.elasticsearch.search.sort.SortParseElement.parse(SortParseElement.java:85)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2018-09-16 19:58:14,969][DEBUG][action.search            ] [Commander Kraken] [how2java][4], node[rIK_fGMuTumMX6lXuuwv-w], [P], v[2], s[STARTED], a[id=QQL176x9SmWWj0rW1_57vw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e262af]
+RemoteTransportException[[Commander Kraken][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+Caused by: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: SearchParseException[No mapping found for [id] in order to sort on]
+	at org.elasticsearch.search.sort.SortParseElement.addSortField(SortParseElement.java:213)
+	at org.elasticsearch.search.sort.SortParseElement.addCompoundSortField(SortParseElement.java:187)
+	at org.elasticsearch.search.sort.SortParseElement.parse(SortParseElement.java:85)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2018-09-16 19:58:14,969][DEBUG][action.search            ] [Commander Kraken] [how2java][0], node[rIK_fGMuTumMX6lXuuwv-w], [P], v[2], s[STARTED], a[id=HhtN50dvThO3cuGf_YuLMw]: Failed to execute [org.elasticsearch.action.search.SearchRequest@1e262af] lastShard [true]
+RemoteTransportException[[Commander Kraken][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+Caused by: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: SearchParseException[No mapping found for [id] in order to sort on]
+	at org.elasticsearch.search.sort.SortParseElement.addSortField(SortParseElement.java:213)
+	at org.elasticsearch.search.sort.SortParseElement.addCompoundSortField(SortParseElement.java:187)
+	at org.elasticsearch.search.sort.SortParseElement.parse(SortParseElement.java:85)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2018-09-16 19:58:14,979][DEBUG][action.search            ] [Commander Kraken] All shards failed for phase: [dfs]
+RemoteTransportException[[Commander Kraken][127.0.0.1:9300][indices:data/read/search[phase/dfs]]]; nested: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+Caused by: SearchParseException[failed to parse search source [{"from":0,"size":5,"query":{"match_all":{}},"sort":[{"id":{"order":"desc"}}]}]]; nested: SearchParseException[No mapping found for [id] in order to sort on];
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:873)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:667)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:633)
+	at org.elasticsearch.search.SearchService.executeDfsPhase(SearchService.java:264)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:360)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchDfsTransportHandler.messageReceived(SearchServiceTransportAction.java:357)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:77)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: SearchParseException[No mapping found for [id] in order to sort on]
+	at org.elasticsearch.search.sort.SortParseElement.addSortField(SortParseElement.java:213)
+	at org.elasticsearch.search.sort.SortParseElement.addCompoundSortField(SortParseElement.java:187)
+	at org.elasticsearch.search.sort.SortParseElement.parse(SortParseElement.java:85)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:856)
+	... 12 more
+[2018-09-16 20:00:01,310][INFO ][cluster.metadata         ] [Commander Kraken] [how2java] update_mapping [category]
+[2018-09-16 20:05:34,659][INFO ][cluster.metadata         ] [Commander Kraken] [.kibana] create_mapping [dashboard]
+[2018-09-16 20:16:55,210][INFO ][bootstrap                ] running graceful exit on windows
+[2018-09-16 20:16:55,210][INFO ][node                     ] [Commander Kraken] stopping ...
+[2018-09-16 20:16:55,270][INFO ][node                     ] [Commander Kraken] stopped
+[2018-09-16 20:16:55,270][INFO ][node                     ] [Commander Kraken] closing ...
+[2018-09-16 20:16:55,276][INFO ][node                     ] [Commander Kraken] closed
