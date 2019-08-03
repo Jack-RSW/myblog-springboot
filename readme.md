@@ -42,7 +42,6 @@
 
    普通用户账号jack 密码 123456
 
-![1564799945665](C:\Users\Jack Ren\AppData\Roaming\Typora\typora-user-images\1564799945665.png)
 
 ## 项目结构
 
